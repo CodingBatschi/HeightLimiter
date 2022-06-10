@@ -1,0 +1,13 @@
+name: HeightLimiter
+version: '${project.version}'
+main: net.batschicraft.main.HeightLimiter
+api-version: 1.13
+description: You can set a heightlimit for your world
+
+commands:
+  hbset:
+    description: <Number> set the maximum height of your world
+    permission: height.set
+  heightlimit:
+    description: shows the setted maximum height of this world
+
